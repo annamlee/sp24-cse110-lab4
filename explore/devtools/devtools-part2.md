@@ -1,0 +1,2 @@
+1. The bug is that the numbers are passed into the form as strings rather than numbers, so the function calculateSum concatenates them instead of adding them together.
+2. I would fix this by converting the input values from strings into floats before they are passed into the calculateSum function.
